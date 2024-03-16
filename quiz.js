@@ -32,6 +32,23 @@ const quiz = [
         answer: "1995",
 
     }
+     {
+        qustion: " Which type of JavaScript language is ___",
+        ans1text: "Object-Oriented",
+        ans2text: "Object-Based",
+        ans3text: "Assembly-language",
+        ans4text: "High-level",
+        answer: "Object-Based",
+
+    },
+    {
+        qustion: "Which one of the following also known as Conditional Expression: ",
+        ans1text: "Alternative to if-else",
+        ans2text: "Switch statement",
+        ans3text: "If-then-else statement",
+        ans4text: "immediate if",
+        answer: "immediate if",
+    }
 ]
 const question = document.getElementById("quiz-question");
 console.log(question);
